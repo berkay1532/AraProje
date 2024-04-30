@@ -10,4 +10,7 @@ module.exports = {
   server: {
     port: process.env.PORT,
   },
+  lix: {
+    api_key: process.env.LIX_API_KEY,
+  },
 };
